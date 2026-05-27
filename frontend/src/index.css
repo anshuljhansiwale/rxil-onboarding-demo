@@ -1,0 +1,43 @@
+:root {
+  --rxil-navy: #0a2540;
+  --rxil-blue: #0066b3;
+  --rxil-teal: #00a3a3;
+  --rxil-gold: #c9a227;
+  --bg: #f4f7fb;
+  --card: #ffffff;
+  --text: #1a2b3c;
+  --muted: #5c6b7a;
+  --border: #dde4ec;
+  --success: #0d7a4d;
+  --warn: #b45309;
+  --danger: #b91c1c;
+  --review: #7c3aed;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'DM Sans', system-ui, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.5;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 0.95rem;
+}

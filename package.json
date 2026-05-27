@@ -1,0 +1,17 @@
+{
+  "name": "rxil-onboarding-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "RXIL TReDS onboarding demo — MongoDB Vector Search for automated maker-checker",
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "dev": "concurrently -n api,web -c blue,green \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "config:init": "cp backend/config/mongodb.config.example.js backend/config/mongodb.config.js",
+    "setup:db": "npm run setup --prefix backend",
+    "seed": "npm run seed --prefix backend",
+    "publish:github": "bash scripts/publish-to-github.sh"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
