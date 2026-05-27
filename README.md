@@ -1,5 +1,7 @@
 # RXIL TReDS Onboarding Demo — MongoDB Vector Search
 
+**Repository:** https://github.com/anshuljhansiwale/rxil-onboarding-demo
+
 Demo for [Receivables Exchange of India (RXIL)](https://www.rxil.in) showcasing how **MongoDB Atlas Vector Search** and **[Voyage AI](https://www.voyageai.com/)** embeddings can replace the manual **maker–checker** step in Corporate Buyer / MSME Seller pre-registration ([signup.treds.in](https://signup.treds.in/preRegistration)).
 
 ## What it demonstrates

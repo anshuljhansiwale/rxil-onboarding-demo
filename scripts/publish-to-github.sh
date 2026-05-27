@@ -30,6 +30,8 @@ EOF
 )"
 fi
 
+gh auth setup-git
+
 gh repo create "$REPO_NAME" \
   --"$VISIBILITY" \
   --source=. \
